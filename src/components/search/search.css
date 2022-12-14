@@ -1,0 +1,12 @@
+.search {
+    justify-self: stretch;
+}
+.search__input {
+    height: 43px;
+    width: 100%;
+    background: url(/src/asserts/icons/search.png) no-repeat left center;
+    background-size: 32px;
+    padding-left: 40px;
+    border: 1px solid black;
+    border-radius: 12px;
+}

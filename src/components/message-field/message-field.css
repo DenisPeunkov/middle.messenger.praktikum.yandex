@@ -1,0 +1,10 @@
+.message-field {
+    justify-self: stretch;
+}
+.message-field__input {
+    height: 43px;
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid black;
+    padding-left: 8px;
+}

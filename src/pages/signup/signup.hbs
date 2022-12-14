@@ -1,0 +1,15 @@
+{{!< main}}
+<div class="wrapper">
+    <div class="form__container">
+        {{> 'title/title' title='Регистрация'}}
+        {{> 'input/input' title='Email:' placeholder-text='введите Email' input-name='email'}}
+        {{> 'input/input' title='Логин:' placeholder-text='введите логин' input-name='login'}}
+        {{> 'input/input' title='Имя:' placeholder-text='введите имя' input-name='first_name'}}
+        {{> 'input/input' title='Фамилия:' placeholder-text='введите фамилию' input-name='second_name'}}
+        {{> 'input/input' title='Телефон:' placeholder-text='+7 (000)-000-00-00' input-name='phone'}}
+        {{> 'input/input' title='Пароль:' placeholder-text='введите пароль'}}
+        {{> 'input/input' title='Пароль (еще раз):' placeholder-text='введите пароль еще раз'}}
+        {{> 'button/button' title='Зарегистрироваться'}}
+        {{> 'link/link' title='Войти'}}
+    </div>
+</div>

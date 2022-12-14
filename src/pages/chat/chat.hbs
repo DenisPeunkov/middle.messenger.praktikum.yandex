@@ -1,0 +1,27 @@
+{{!< main}}
+
+<div class="grid">
+    <div class="grid__header-sidebar sidebar">
+        {{> 'search/search'}}
+        {{> 'image-link/image-link' image-src='/src/asserts/icons/new-chat.png'}}
+    </div>
+    <div class="grid__header-chat">
+        {{> 'chat-name/chat-name' chat-avatar='/src/asserts/icons/new-chat.png' chat-name='chat-name'}}
+        {{> 'image-link/image-link' image-src='/src/asserts/icons/new-chat.png'}}
+    </div>
+    <div class="grid__chats-list sidebar">
+        <h1>Тут пока ничего нет :</h1>
+    </div>
+    <div class="grid__chat">
+        <h1>И тут тоже</h1>
+    </div>
+    <div class="grid__footer-sidebar sidebar">
+        {{> 'image-link/image-link' image-src='/src/asserts/icons/new-chat.png'}}
+        {{> 'image-link/image-link' image-src='/src/asserts/icons/new-chat.png'}}
+    </div>
+    <div class="grid__footer-chat">
+        {{> 'image-link/image-link' image-src='/src/asserts/icons/new-chat.png'}}
+        {{> 'message-field/message-field'}}
+        {{> 'image-link/image-link' image-src='/src/asserts/icons/new-chat.png'}}
+    </div>
+</div>

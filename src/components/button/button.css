@@ -1,0 +1,14 @@
+.form-button {
+    place-self: center;
+    margin-top: 24px;
+    &__button {
+        border-radius: 8px;
+        background-color: #35537F;
+        height: 36px;
+        width: 352px;
+        font-size: 14px;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+}
