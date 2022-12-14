@@ -5,7 +5,7 @@
   },
   "scripts": {
     "dev": "parcel src/pages/index.hbs --no-cache",
-    "build": "parcel build index.hbs"
+    "build": "parcel build src/pages/index.hbs && node ./server.js"
   },
   "dependencies": {
     "handlebars": "^4.7.7",
