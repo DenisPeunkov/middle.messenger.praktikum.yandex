@@ -1,0 +1,19 @@
+{{!< main}}
+
+<div class="wrapper">
+    <div class="profile">
+        <div class="profile-avatar">
+            <img src="/src/asserts/images/avatar_placeholder.png" alt="" class="profile-avatar__image">
+        </div>
+        {{> 'profile-item/profile-item' title='Имя' value='Имя'}}
+        {{> 'profile-item/profile-item' title='Фамилия' value='Фамилия'}}
+        {{> 'profile-item/profile-item' title='Имя в чате' value='ИмяФамилия'}}
+        {{> 'profile-item/profile-item' title='Логин' value='Логин'}}
+        {{> 'profile-item/profile-item' title='Email' value='ivan@ivan.ru'}}
+        {{> 'profile-item/profile-item' title='Телефон' value='+7(000) 000 00 00'}}
+        {{> 'button/button' title='Изменить данные'}}
+        {{> 'button/button' title='Изменить аватар'}}
+        {{> 'button/button' title='Изменить пароль'}}
+        {{> 'button/button' title='Выйти'}}
+    </div>
+</div>

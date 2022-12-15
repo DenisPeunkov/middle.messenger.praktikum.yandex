@@ -1,0 +1,13 @@
+.modal-windows {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    padding: 20px;
+    box-shadow: 0 0 2px gray;
+    border-radius: 12px;
+}

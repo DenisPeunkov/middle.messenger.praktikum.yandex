@@ -1,0 +1,6 @@
+.error {
+    display: grid;
+    grid-template-rows: auto;
+    place-items: center center;
+    grid-gap: 8px;
+}
