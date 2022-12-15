@@ -10,6 +10,8 @@
 @import '../components/profile-item/profile-item.css';
 @import '../components/input-file/input-file.css';
 @import '../components/error/error.css';
+@import '../components/chat-list-item/chat-list-item.css';
+
 /* ---pages--- */
 @import '../pages/chat/chat.css';
 @import '../pages/login/login.css';

@@ -1,12 +1,10 @@
-
 .profile-item {
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-bottom: 1px solid lightgray;
     padding: 8px;
     margin-top: 8px;
-}
-
-.profile-item__title {
-    font-weight: 700;
+    &__title {
+        font-weight: 700;
+    }
 }
