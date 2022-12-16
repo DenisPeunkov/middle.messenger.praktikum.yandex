@@ -31,7 +31,7 @@
     &__unread-messages-count {
         grid-area: unread-messages-count;
         place-self: center center;
-        border: 1px solid black;
+        border: 1px solid $black;
         border-radius: 3px;
         padding: 0 2px;
     }

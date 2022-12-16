@@ -8,6 +8,6 @@
 
 form {
     padding: 20px;
-    box-shadow: 0 0 2px gray;
+    box-shadow: 0 0 2px $gray;
     border-radius: 12px;
 }

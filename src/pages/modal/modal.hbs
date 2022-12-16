@@ -6,8 +6,8 @@
         {{> 'input/input' title='Старый пароль' name='oldPassword' placeholder-text='введите старый пароль' type='password'}}
         {{> 'input/input' title='Новый пароль' name='newPassword' placeholder-text='введите новый пароль' type='password'}}
         {{> 'input/input' title='Новый пароль (еще раз)' name='verifyNewPassword' placeholder-text='введите новый пароль еще раз' type='password'}}
-        {{> 'button/button' title='Сохранить'}}
-        {{> 'button/button' title='Отмена'}}
+        {{> 'button/button' title='Сохранить' button-type='submit'}}
+        {{> 'button/button' title='Отмена' button-type='button'}}
     </form>
      <form action="" class="modal-change-userdata">
         {{> 'title/title' title='Изменение данных'}}
@@ -16,13 +16,13 @@
         {{> 'input/input' title='Логин' name='login' value='login' type='text'}}
         {{> 'input/input' title='Email' name='email' value='ivan@ivan.ru' type='text'}}
         {{> 'input/input' title='Телефон' name='phone' value='+7 (000) 000 00 00' type='text'}}
-        {{> 'button/button' title='Сохранить'}}
-        {{> 'button/button' title='Отмена'}}
+        {{> 'button/button' title='Сохранить' button-type='submit'}}
+        {{> 'button/button' title='Отмена' button-type='button'}}
     </form>
     <form action="" class="modal-change-avatar">
         {{> 'title/title' title='Изменение аватарки'}}
         {{> 'input-file/input-file' name='avatar'}}
-        {{> 'button/button' title='Сохранить'}}
-        {{> 'button/button' title='Отмена'}}
+        {{> 'button/button' title='Сохранить' button-type='submit'}}
+        {{> 'button/button' title='Отмена' button-type='button'}}
     </form>
 </div>

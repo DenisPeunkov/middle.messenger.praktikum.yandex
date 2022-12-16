@@ -1,3 +1,4 @@
+@import './colors.css';
 /* ---components--- */
 @import '../components/image-link/image-link.css';
 @import '../components/search/search.css';
@@ -17,6 +18,7 @@
 @import '../pages/login/login.css';
 @import '../pages/profile/profile.css';
 @import '../pages/modal/modal.css';
+
 
 @font-face {
     font-family: "PT";

@@ -42,5 +42,5 @@
 }
 
 .sidebar {
-    background-color: #fbfbfb;
+    background-color: $gray-lighter;
 }

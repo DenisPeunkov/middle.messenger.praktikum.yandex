@@ -6,7 +6,7 @@
         background: url(/src/asserts/icons/search.png) no-repeat left center;
         background-size: 32px;
         padding-left: 40px;
-        border: 1px solid black;
+        border: 1px solid $black;
         border-radius: 12px;
     }
 }

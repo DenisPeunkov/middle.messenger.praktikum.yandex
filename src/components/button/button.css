@@ -3,7 +3,7 @@
     margin-top: 24px;
     &__button {
         border-radius: 8px;
-        background-color: #35537F;
+        background-color: $gray-blue-light;
         height: 36px;
         width: 352px;
         font-size: 14px;
