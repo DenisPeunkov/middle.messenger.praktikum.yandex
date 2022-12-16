@@ -1,0 +1,8 @@
+.form-link {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: $gray-blue-light;
+    text-decoration: none;
+    margin-top: 8px;
+}

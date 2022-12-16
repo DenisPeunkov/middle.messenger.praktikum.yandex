@@ -1,0 +1,38 @@
+.chat-list-item {
+    width: 100%;
+    height: 43px;
+    margin-top: 8px;
+    padding: 0 8px;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-areas:
+        "avatar chat-name last-message-time"
+        "avatar last-message unread-messages-count";
+    &__avatar {
+        grid-area: avatar;
+        place-self: center center;
+    }
+
+    &___chat-name {
+        grid-area: chat-name;
+        place-self: center start;
+    }
+
+    &__last-message-time {
+        grid-area: last-message-time;
+        place-self: center center;
+    }
+    
+    &__last-message {
+        grid-area: last-message;
+        place-self: center start;
+    }
+
+    &__unread-messages-count {
+        grid-area: unread-messages-count;
+        place-self: center center;
+        border: 1px solid $black;
+        border-radius: 3px;
+        padding: 0 2px;
+    }
+}

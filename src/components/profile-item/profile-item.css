@@ -1,0 +1,10 @@
+.profile-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid $gray-light;
+    padding: 8px;
+    margin-top: 8px;
+    &__title {
+        font-weight: 700;
+    }
+}

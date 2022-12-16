@@ -1,0 +1,46 @@
+.grid {
+    display: grid;
+    grid-template-columns: 450px minmax(450px, 100%);
+    grid-template-rows: 68px auto 60px;
+    height: 100vh;
+    align-content: stretch;
+    &__footer-sidebar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center center;
+        padding: 8px;
+    }
+
+    &__header-sidebar {
+        display: grid;
+        grid-template-columns: 7fr 1fr;
+        place-items: center center;
+        padding: 8px;
+    }
+    
+    &__header-chat {
+        display: grid;
+        grid-template-columns: auto 56px;
+        place-items: center center;
+        padding: 8px;
+    }
+
+    &__footer-chat {
+        display: grid;
+        grid-template-columns: 56px auto 56px;
+        place-items: center center;
+        padding: 8px;
+    }
+
+    &__chats-list, __chat {
+        overflow: scroll;
+        overflow-x: hidden;
+        overflow-y: auto;
+        place-items: center center;
+        padding: 8px;
+    }
+}
+
+.sidebar {
+    background-color: $gray-lighter;
+}

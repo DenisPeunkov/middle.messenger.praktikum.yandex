@@ -1,0 +1,7 @@
+.image-link {
+    place-self: center center;
+    &__image {
+        width: 38px;
+        height: 38px;
+    }
+}
